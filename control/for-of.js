@@ -5,3 +5,10 @@ for (let element of num){   //Used to iterate over different data types includin
     sum+=element
 }
 console.log({sum});
+
+
+//Both for...in and for...of statements iterate over something. 
+//The main difference between them is in what they iterate over. 
+//The for...in statement iterates over the enumerable string properties of an object,
+// while the for...of statement iterates over values that the iterable object defines to be iterated over.
+
