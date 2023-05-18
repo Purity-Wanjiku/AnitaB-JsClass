@@ -9,7 +9,7 @@ let promise = new Promise((resolve,reject) => {
     }
  });
 promise.then(() => {
-    console.log("I will work hard");
+    console.log("I will celebrate");
 })
 promise.catch(() => {
     console.log("I will upskill");
@@ -18,5 +18,4 @@ promise.finally(() => {
     console.log("I am still worthy");
 })
 console.log({promise});
-//Async is a keyword you use before a function
-//It makes the function asynchronous
+

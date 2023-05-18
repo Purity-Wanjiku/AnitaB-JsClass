@@ -7,3 +7,8 @@ const sum = (num,a, callback) => {
 sum(20,5,function(a){
     return a
 })
+const summation =(num,a,callback)=>{
+    let value= callback;
+    console.log(value);
+}
+summation (20,5,function(a){return a});

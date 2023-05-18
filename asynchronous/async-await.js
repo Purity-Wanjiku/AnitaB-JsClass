@@ -20,10 +20,10 @@ promise.finally(() => {
     console.log("I am still worthy");
 })
 
+console.log(promise);
 
 const student = async () => {        //async always use await with it   
     let result = await promise          //try and catch
     console.log({result});
 }
 student();
-console.log({promise});
